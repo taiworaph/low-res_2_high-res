@@ -20,5 +20,8 @@ This repository is organized into folders that have .ipynb notebooks.
 ## Low Resolution Video 
 ![original_lr_video](/original_lr_video_.gif)
 
-## Upconverted High Resolution Output
+## Upconverted High Resolution Output using Variational Autoencoder trained for 100 Epochs
 ![Model Output](/enhanced_video_vae_finale.gif)
+
+## Upconverted High Resolution Output using Convolutional regressive Autoencoder trained for 50 Epochs
+![Model_Output_CNN](/enhanced_video_cnn_finale.gif)
