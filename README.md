@@ -27,4 +27,4 @@ This repository is organized into folders that have .ipynb notebooks.
 ![Model_Output_CNN](/enhanced_video_cnn_finale.gif)
 
 ## The End-2-End data pipeline for up-conversion from low-res to High-res Image/Video
-![pipeline](/data_pipeline.png)
+![pipeline](/pipeline.jpeg)
