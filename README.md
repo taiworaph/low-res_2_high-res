@@ -27,4 +27,13 @@ This repository is organized into folders that have .ipynb notebooks.
 ![Model_Output_CNN](/enhanced_video_cnn_finale.gif)
 
 ## The End-2-End data pipeline for up-conversion from low-res to High-res Image/Video
-![pipeline](/data_pipeline.png)
+
+Data generation involves the conversion of high resolution video into high resolution frames at 1980x1080.
+Each frame is then converted to a high reslution image of 512x512.
+The low resolution counterpart is obtained using pixelation and Gaussian noise. The low resolution counterpart is then reshaped to a 256x256
+
+The low resolution image and it's high resolution pair are then provided as the training data set to the CNN,VAE model.
+The model's output is an enhanced (denoised and upconverted) sample of the low resolution input at 512x512.
+
+THe Model can then be run on frames of images to give enhanced frames and enhanced video as shown above.
+![pipeline](/pipeline.jpeg)
