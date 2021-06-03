@@ -25,3 +25,6 @@ This repository is organized into folders that have .ipynb notebooks.
 
 ## Upconverted High Resolution Output using Convolutional regressive Autoencoder trained for 50 Epochs
 ![Model_Output_CNN](/enhanced_video_cnn_finale.gif)
+
+## The End-2-End data pipeline for up-conversion from low-res to High-res Image/Video
+![pipeline](/data_pipeline.png)
