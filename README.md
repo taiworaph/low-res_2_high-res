@@ -18,13 +18,13 @@ This repository is organized into folders that have .ipynb notebooks.
 
 
 ## Low Resolution Video 
-![original_lr_video](/original_lr_video_.gif)
+![original_lr_video](/original_lr_real_video_.gif)
 
-## Upconverted High Resolution Output using Variational Autoencoder trained for 100 Epochs
-![Model Output](/enhanced_video_vae_finale.gif)
+## Upconverted High Resolution Output using Convolutional regressive Autoencdoer trained for 50 Epochs with Sigmoid activation function
+![Model Output](/enhanced_real_video_cnn_finale.gif)
 
-## Upconverted High Resolution Output using Convolutional regressive Autoencoder trained for 50 Epochs
-![Model_Output_CNN](/enhanced_video_cnn_finale.gif)
+## The actual video at High resolution
+![Model_Output_CNN](/original_hr_real_video.gif)
 
 ## The End-2-End data pipeline for up-conversion from low-res to High-res Image/Video
 
