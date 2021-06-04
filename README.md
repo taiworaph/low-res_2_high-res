@@ -24,7 +24,7 @@ This repository is organized into folders that have .ipynb notebooks.
 ![Model Output](/enhanced_real_video_cnn_finale.gif)
 
 ## The actual video at High resolution
-![Model_Output_CNN](/original_hr_real_video.gif)
+![Model_Output_CNN](/original_hr_real_video_.gif)
 
 ## The End-2-End data pipeline for up-conversion from low-res to High-res Image/Video
 
